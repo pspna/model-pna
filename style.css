@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 html,body{
     width: 100%;
@@ -22,6 +21,7 @@ ul{
     justify-content: flex-end;
     padding-right: 20px;
     font-size: 14px;
+    padding-top: 20px;
 }
 ul>i{
     font-size: 15px;
@@ -29,23 +29,32 @@ ul>i{
     background-color: black;
     color: white;
     border-radius: 50%;
+    border: rgb(238, 208, 13) solid 2px;
+}
+ul>i:hover{
+    color: black;
+    background-color: rgb(238, 208, 13);
+    border: black solid 2px;
 }
 .menu{
     text-decoration: none;
     color: gray;
 }
 .heading{
-    width: 100%;
+    width: 40%;
     height: 30vh;
-    /* border: red solid 1px; */
     line-height: 55px;
     display: block;
     align-content: center;
     font-size: 25px;
     font-family: sans-serif;
-    padding-left:50px;
-    font-weight: bold;
-    
+    padding-left:50px;  
+    color: rgb(78, 77, 77);
+}
+h1:hover{
+    color: rgb(190, 181, 116);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
 }
 .content{
 
@@ -86,10 +95,11 @@ a:hover {
   color: black;
 }
 .cart:hover{
-    border-bottom: black solid 1.5px;
+    border-bottom:rgb(238, 208, 13) solid 1.5px;
+    
 }
 .image{
-    background-image: url(modelImg.jpg);
+    background-image: url(ModelImg.jpg);
     background-size: cover;
-    background-position: 0 65%;
+    background-position: 0 25%;
 }
